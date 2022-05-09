@@ -1,0 +1,2 @@
+# AndroidWidget
+Android长按展示快捷方式及桌面小组件的创建
