@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AndroidWidget</string>
+
+    <string name="app_test_0">测试一</string>
+    <string name="app_test_1">测试二</string>
+
+    <string name="app_test_2">动态测试一</string>
+    <string name="app_test_2_long">我是一个长的动态测试一</string>
+    <string name="app_test_2_updata">动态测试一更新</string>
+
+    <string name="app_test_3">动态测试二</string>
+    <string name="app_test_3_long">我是一个长的动态测试二</string>
+    <string name="app_test_3_updata">动态测试二更新</string>
+</resources>

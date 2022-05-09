@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态添加方式一" />
+
+    <Button
+        android:id="@+id/btn_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态移除方式一" />
+
+    <Button
+        android:id="@+id/btn_updata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态更新方式一" />
+
+    <Button
+        android:id="@+id/btn_add_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态添加方式二" />
+
+    <Button
+        android:id="@+id/btn_remove_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态移除方式二" />
+
+    <Button
+        android:id="@+id/btn_updata_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态更新方式二" />
+
+</LinearLayout>

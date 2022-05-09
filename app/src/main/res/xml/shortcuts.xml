@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="test_0"
+        android:shortcutShortLabel="@string/app_test_0">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.abner.widget.Test0Activity"
+            android:targetPackage="com.abner.widget" />
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="test_1"
+        android:shortcutShortLabel="@string/app_test_1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.abner.widget.Test1Activity"
+            android:targetPackage="com.abner.widget" />
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+</shortcuts>
